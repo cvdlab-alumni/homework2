@@ -5,14 +5,19 @@
 
 # Introduction
 
-This modeling task concerns the construction of a Javascript (simplified) model of an historical aircraft. 
-The choice of the aircraft to be modeled, e.g. from the [*The Shuttleworth Aircraft Collection*](http://www.shuttleworth.org/shuttleworth-collection/aircraft.asp) is left to the student. 
+This modeling task concerns the construction of a Javascript (simplified) model of an historical aircraft.  
+The choice of the aircraft to be modeled, e.g. from the [*The Shuttleworth Aircraft Collection*](http://www.shuttleworth.org/shuttleworth-collection/aircraft.asp) is left to the student.  
 An image of the chosen model must be enclosed to the project directory.  
 
-Start by looking at the whole collection, and choose an aircraft of your interest. Plan carefully how to decompose the model into pieces to be modeled independently, looking also for further documentation on the web. In case, enclose useful images and/or drawings into your project folder. A description (and nomenclature) of airplane parts can be found in [http://www.grc.nasa.gov/WWW/k-12/airplane/airplane.html](http://www.grc.nasa.gov/WWW/k-12/airplane/airplane.html).
-Start the programming works, item by item, only after careful planning and design of the model. 
+Start by looking at the whole collection, and choose an aircraft of your interest.  
+Plan carefully how to decompose the model into pieces to be modeled independently,  
+looking also for further documentation on the web.  
+In case, enclose useful images and/or drawings into your project folder.  
+A description (and nomenclature) of airplane parts can be found in [http://www.grc.nasa.gov/WWW/k-12/airplane/airplane.html](http://www.grc.nasa.gov/WWW/k-12/airplane/airplane.html).  
+Start the programming works, item by item, only after careful planning and design of the model.  
 
-The programming assignment must be produced in JavaScript language, using the `Plasm.js` development environment found at [http://cvd-lab.github.com/plasm.js/](http://cvd-lab.github.com/plasm.js/) location, and in particular using transfinite Bezier and/or transfinite Hermite and/or transfinite NUBS splines.
+The programming assignment must be produced in JavaScript language,  
+using the `Plasm.js` development environment found at [http://cvd-lab.github.com/plasm.js/](http://cvd-lab.github.com/plasm.js/) location, and in particular using transfinite Bezier and/or transfinite Hermite and/or transfinite NUBS splines.
 
 
 # Exercises
@@ -41,9 +46,9 @@ Model a reasonably simplified airstrip, and put there your aircraft model.
 
 For each exercise you must produce a corresponding file `exercise1.js`, `exercise2.js`, etc.  
 Such files must be contained in a directory entitled `2012-05-04`, pushed into your repository in cvdlab-cg organization:  
-[https://github.com/cvdlab-cg/xxxxxx](https://github.com/cvdlab-cg/) where `xxxxxx` is the student ID  (matricola). 
+[https://github.com/cvdlab-cg/xxxxxx](https://github.com/cvdlab-cg/) where `xxxxxx` is the student ID  (matricola).  
 All support material such as images of the aircraft, airplane parts detail pictures, etc,  
-must be put in a directory named `material` and pushed into the same repository as the exercise files.
+must be put in a directory named `material` and pushed into the same repository as the exercise files.  
 At least one picture of the selected aircraft must be included and named `aircraft.[png|jpg|jpeg]`.
 
 
