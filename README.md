@@ -47,9 +47,9 @@ Model a reasonably simplified airstrip, and put there your aircraft model.
 
 The project must be contained a directory entitled `2012-05-04`,  
 pushed into your repository in cvdlab-cg organization [https://github.com/cvdlab-cg/xxxxxx](https://github.com/cvdlab-cg/)  
-where `xxxxxx` is the student ID  (matricola).
+where `xxxxxx` is your student ID  (matricola).
 
-For each exercise you must produce a corresponding file `exercise1.js`, `exercise2.js`, ... .
+For each exercise you must produce a corresponding file `exercise1.js`, `exercise2.js`, ... .  
 All support material such as images of the aircraft, airplane parts, detail pictures, ...,  
 must be put in a directory named `material` in the project directory.  
 At least one picture of the selected aircraft must be included and named `aircraft.[png|jpg|jpeg]`.
