@@ -8,7 +8,7 @@
 This modeling task concerns the construction of a Javascript (simplified) model of an historical aircraft.  
 The choice of the aircraft to be modeled is left to the student.  
 
-A collection of aircraft can be found in [*The Shuttleworth Aircraft Collection*](http://www.shuttleworth.org/shuttleworth-collection/aircraft.asp)
+A collection of aircraft can be found in [*The Shuttleworth Aircraft Collection*](http://www.shuttleworth.org/shuttleworth-collection/aircraft.asp)  
 A description (and nomenclature) of airplane parts can be found in [http://www.grc.nasa.gov/WWW/k-12/airplane/airplane.html](http://www.grc.nasa.gov/WWW/k-12/airplane/airplane.html).  
 
 The programming assignment must be produced in JavaScript language using [`Plasm.js`](http://cvdlab.github.com/plasm.js/),  
