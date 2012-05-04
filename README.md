@@ -81,4 +81,4 @@ The delivery is strictly required within 24 hours from the publication of the ho
 
 #### Work by iterations: first simple things
 
-#### Provide a ditailed solution results in a higher mark
+#### Higher marks for more detailed models
