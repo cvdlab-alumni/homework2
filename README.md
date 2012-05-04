@@ -17,7 +17,8 @@ A description (and nomenclature) of airplane parts can be found in [http://www.g
 Start the programming works, item by item, only after careful planning and design of the model.  
 
 The programming assignment must be produced in JavaScript language,  
-using the `Plasm.js` development environment found at [http://cvd-lab.github.com/plasm.js/](http://cvd-lab.github.com/plasm.js/) location, and in particular using transfinite Bezier and/or transfinite Hermite and/or transfinite NUBS splines.
+using the `Plasm.js` development environment found at [http://cvd-lab.github.com/plasm.js/](http://cvd-lab.github.com/plasm.js/) location,  
+and in particular using transfinite Bezier and/or transfinite Hermite and/or transfinite NUBS splines.
 
 
 # Exercises
