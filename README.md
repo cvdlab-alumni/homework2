@@ -10,9 +10,11 @@ The choice of the aircraft to be modeled is left to the student.
 
 A collection of aircraft can be found in [*The Shuttleworth Aircraft Collection*](http://www.shuttleworth.org/shuttleworth-collection/aircraft.asp)  
 A description (and nomenclature) of airplane parts can be found in [http://www.grc.nasa.gov/WWW/k-12/airplane/airplane.html](http://www.grc.nasa.gov/WWW/k-12/airplane/airplane.html).  
+(Other web resources are allowed.)
 
 The programming assignment must be produced in JavaScript language using [`Plasm.js`](http://cvdlab.github.com/plasm.js/),  
-and in particular using transfinite Bezier (`BEZIER`) and/or transfinite Hermite (`CUBIC_HERMITE`) and/or transfinite NUBS splines (`NUBS`).
+and in particular using transfinite Bezier and/or transfinite Hermite and/or transfinite NUBS splines:  
+`BEZIER`, `CUBIC_HERMITE`, `NUBS` (see [`Plasm.js` docs](https://github.com/cvdlab/plasm.js/blob/master/docs/Readme.md))
 
 Start by looking at the whole collection, and choose an aircraft of your interest.  
 An image of the chosen model must be enclosed in the project (see Assignment delivery).  
