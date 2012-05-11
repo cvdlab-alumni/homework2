@@ -5,6 +5,11 @@
 
 ```
             1     2     3     4     5     D           B     H     N           MARK
+
+000000      X     X     X     X     X     X           0     0     0            0
+000001      A     A     A     A     A     A           1     1     0           13
+000002      A     A     A     A     A     A           0     0     1           13
+
 220279      A/B   A     A     A     A     A           1     0     0           12.5
 228091      B     C     C     C     C     A           1     1     0            9.2
 240728      A     B     A/B   B     B/C   B           1     1     0           11
