@@ -1,7 +1,7 @@
 # Homework assignment n.2 results
 
 **For any questions about homework**  
-**Friday 18th,  11:30 - 13:00, CVD Lab**
+**Friday 18th,  9:45 - 11:15, CVD Lab**
 
 ```
             1     2     3     4     5     D           B     H     N           MARK
