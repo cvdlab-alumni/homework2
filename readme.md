@@ -74,7 +74,7 @@ where `xxxxxx` is the student ID  (matricola).
     +- exercise5.py
 ```
 
-The delivery is strictly required within 24 hours from the publication of the homework (by 7:00 PM of Saturday May, 11th 2013).
+The delivery is strictly required within 24 hours from the publication of the homework (by 7:00 PM of Saturday May 11th 2013).
 
 # Tips
 
