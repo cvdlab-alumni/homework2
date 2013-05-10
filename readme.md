@@ -1,7 +1,7 @@
 # Homework assignment n.2
-**Computational Visual Design Lab ([CVDLab](https://github.com/cvdlab))**
-**"Roma Tre" University, Rome, Italy**
-**Computational Graphics 2013**
+**Computational Visual Design Lab ([CVDLab](https://github.com/cvdlab))**   
+**"Roma Tre" University, Rome, Italy**   
+**Computational Graphics 2013**   
 
 # Introduction
 
@@ -47,10 +47,10 @@ Create **at least** two *interesting* car surfaces and add them to the mock-up.
 
 # Assignment delivery
 
-For each exercise you must produce a corresponding file `exercise1.py`, etc.
-All the .py file must be enclosed within a directory `python`.
-Such directories must be contained in a directory entitled `2013-05-10`,
-pushed into the personal GitHub repository of the student: [https://github.com/cvdlab-cg/xxxxxx](https://github.com/cvdlab-cg/)
+For each exercise you must produce a corresponding file `exercise1.py`, etc.   
+All the .py file must be enclosed within a directory `python`.   
+Such directories must be contained in a directory entitled `2013-05-10`,   
+pushed into the personal GitHub repository of the student: [https://github.com/cvdlab-cg/xxxxxx](https://github.com/cvdlab-cg/)   
 where `xxxxxx` is the student ID  (matricola).
 
 ```
