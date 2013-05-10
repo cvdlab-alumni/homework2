@@ -1,98 +1,83 @@
-# [Homework assignment n.2 results](https://github.com/cvdlab-cg/homework2/blob/master/results.md)
-
-- - -
-
-# TIME'S UP :)
-
-### YOUR LAST PUSH WILL BE CONSIDERED
-
-- - -
-
 # Homework assignment n.2
-**Computational Visual Design Lab ([CVDLab](https://github.com/cvd-lab))**  
-**DIA, "Roma Tre" University, Rome, Italy**  
-**Computational Graphics 2012**  
+**Computational Visual Design Lab ([CVDLab](https://github.com/cvdlab))**
+**"Roma Tre" University, Rome, Italy**
+**Computational Graphics 2013**
 
 # Introduction
 
-This modeling task concerns the construction of a Javascript (simplified) model of an historical aircraft.  
-The choice of the aircraft to be modeled is left to the student.  
+The requirement is to produce a very simplified digital mock-up of a racing car.
 
-A collection of aircraft can be found in [*The Shuttleworth Aircraft Collection*](http://www.shuttleworth.org/shuttleworth-collection/aircraft.asp)  
-A description (and nomenclature) of airplane parts can be found in [http://www.grc.nasa.gov/WWW/k-12/airplane/airplane.html](http://www.grc.nasa.gov/WWW/k-12/airplane/airplane.html).  
-(Other web resources are allowed.)
+(From [Wikipedia, the free encyclopedia: Automotive design](http://en.wikipedia.org/wiki/Automotive_design))
+The functional design and development of a modern motor vehicle is typically done by a large team from many different disciplines included in automotive engineering. Automotive design in this context is primarily concerned with developing the visual appearance or aesthetics of the vehicle, though it is also involved in the creation of the product concept.
+The stylist responsible for the design of the exterior of the vehicle develops the proportions, shape, and surfaces of the vehicle. Exterior design is first done by a series of digital or manual drawings. Progressively more detailed drawings are executed and approved.
 
-The programming assignment must be produced in JavaScript language using [`Plasm.js`](http://cvdlab.github.com/plasm.js/),  
-and in particular using transfinite Bezier and/or transfinite Hermite and/or transfinite NUBS splines:  
-`BEZIER`, `CUBIC_HERMITE`, `NUBS` (see [`Plasm.js` docs](https://github.com/cvdlab/plasm.js/blob/master/docs/Readme.md))
 
-Start by looking at the whole collection, and choose an aircraft of your interest.  
-An image of the chosen model must be enclosed in the project (see Assignment delivery).  
-Plan carefully how to decompose the model into pieces to be modeled independently.  
-Useful images and/or drawings should be enclosed in the project (see Assignment delivery).  
-Start the programming works, item by item, only after careful planning and design of the model. (see Tips)
+# Notes
 
+Useful links are [here](https://www.google.it/search?q=draw+ferrari+cars&source=lnms&tbm=isch&sa=X&ei=u_mMUdWWC8nBswbQuYHYBg&ved=0CAoQ_AUoAQ), [here](http://store.ferrari.com/it/collezionismo/modelli-da-collezione/) and [here](https://www.facebook.com/media/set/?set=a.10150411004934780.375266.239718954779&type=3).
+First spend time to look carefully to how a complex shape is built by a sequence of shape refinements, using sketches and paper drawings. Only later start the modeling work, **item by item** (exercise by exercise).
+The programming assignment must be produced in *Python*, using the the [`Pyplasm`](https://github.com/plasm-language/pyplasm) module for Python.
+
+## Remark
+
+The solutions to the homework assignment are strictly personal. Group work is not allowed.
 
 # Exercises
 
 ## Exercise 1
 
-Produce the model of a single wing in a local coordinate system.
+Choose, searching on the web, a set of reference sketches and drawings for the car model you want to produce, and store their images in a directory (do not forget to add the images that drive your development of the exercises below).
 
 ## Exercise 2
 
-Produce the model of the fuselage (local coordinate system).
+Generate the 2D profile curves of the car envelope in the three coordinate directions, embed them in 3D (in the x=0, y=0 and z=0 planes, respectively, with the reference frame origin set approximately at the car centroid) and mount them together in a "two-and-a-half-dimensional" (2.5D) or "pseudo-3D" model.
 
 ## Exercise 3
 
-Produce the model of horizontal and vertical stabilizers (local coordinate system).
+Generate a model of a racing car wheels (see, e.g. [here](https://www.google.it/search?hl=en&site=imghp&tbm=isch&source=hp&biw=968&bih=606&q=racing+car+wheels&oq=racing+car+wheels)),
+and mount four wheel instances in the 2.5D car mock-up.
 
 ## Exercise 4
 
-Assemble the various assemblies and/or subassemblies into a single model. 
+Generate the 3D model of a steering wheel (volante :o) specifically designed for Formula and Sport cars (look on the web for common shapes). Mount it the the 2.5D mock-up.
 
 ## Exercise 5
 
-Model a reasonably simplified airstrip, and put there your aircraft model.
+Create **at least** two *interesting* car surfaces and add them to the mock-up.
 
 # Assignment delivery
 
-The project must be contained a directory entitled `2012-05-04`,  
-pushed into your repository in cvdlab-cg organization [https://github.com/cvdlab-cg/xxxxxx](https://github.com/cvdlab-cg/)  
-where `xxxxxx` is your student ID  (matricola).
-
-For each exercise you must produce a corresponding file `exercise1.js`, `exercise2.js`, ... .  
-All support material such as images of the aircraft, airplane parts, detail pictures, ...,  
-must be put in a directory named `material` in the project directory.  
-At least one picture of the selected aircraft must be included and named `aircraft.[png|jpg|jpeg]`.
-
+For each exercise you must produce a corresponding file `exercise1.py`, etc.
+All the .py file must be enclosed within a directory `python`.
+Such directories must be contained in a directory entitled `2013-05-10`,
+pushed into the personal GitHub repository of the student: [https://github.com/cvdlab-cg/xxxxxx](https://github.com/cvdlab-cg/)
+where `xxxxxx` is the student ID  (matricola).
 
 ```
-XXXXXX
++- xxxxxx
 |
-+- 2012-05-04
++- 2013-05-10
   |
-  +- exercise1.js
-  +- exercise2.js
-  +- exercise3.js
-  +- exercise4.js
-  +- exercise5.js
-  +- material
+  +- images
+  | |
+  | +- image1.jpeg
+  | +- image2.png
+  | +- etc.
+  | +- ....
+  |
+  +- python
     |
-    +- aircraft.png (or .jpg, or .jpeg)
-    +- ...
+    +- exercise1.py
+    +- exercise2.py
+    +- exercise3.py
+    +- exercise4.py
+    +- exercise5.py
 ```
 
-> where `XXXXXX` is the name of your repository (your matricola)
-
-The delivery is strictly required within 24 hours from the publication of the homework.
+The delivery is strictly required within 24 hours from the publication of the homework (by 7:00 PM of Saturday May, 11th 2013).
 
 # Tips
 
-#### Work with an updated local environment
-
 #### Commit and push as frequently as you can
 
-#### Work by iterations: first simple things
 
-#### Higher marks for more detailed models
