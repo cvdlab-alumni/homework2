@@ -36,7 +36,7 @@ Generate the 2D profile curves of the car envelope in the three coordinate direc
 
 ## Exercise 3
 
-Generate a model of a racing car wheels (see, e.g. [here](https://www.google.it/search?hl=en&site=imghp&tbm=isch&source=hp&biw=968&bih=606&q=racing+car+wheels&oq=racing+car+wheels)),
+Generate a 3D model of a racing car wheel (see, e.g. [here](https://www.google.it/search?hl=en&site=imghp&tbm=isch&source=hp&biw=968&bih=606&q=racing+car+wheels&oq=racing+car+wheels)),
 and mount four wheel instances in the 2.5D car mock-up.
 
 ## Exercise 4
