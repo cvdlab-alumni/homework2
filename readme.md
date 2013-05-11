@@ -30,7 +30,7 @@ Choose, searching on the web, a set of reference sketches and drawings for the c
 
 ## Exercise 2
 
-Generate the 2D profile curves of the car envelope in the three coordinate directions, embed them in 3D (in the x=0, y=0 and z=0 planes, respectively, with the reference frame origin set approximately at the car centroid) and mount them together in a "two-and-a-half-dimensional" (2.5D) or "pseudo-3D" model.
+Generate the 2D profile curves of the car envelope in three orthogonal planes, embed them in 3D (in the x=0, y=0 and z=0 planes, respectively, with the reference frame origin set approximately at the car centroid) and mount them together in a "two-and-a-half-dimensional" (2.5D) or "pseudo-3D" model.
 
 ![img src=2.5Dimage.png alt=foobar](http://www.dia.uniroma3.it/~paoluzzi/web/pao/fig/2.5Dimage.png)
 
