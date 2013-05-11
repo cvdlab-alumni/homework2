@@ -32,6 +32,8 @@ Choose, searching on the web, a set of reference sketches and drawings for the c
 
 Generate the 2D profile curves of the car envelope in the three coordinate directions, embed them in 3D (in the x=0, y=0 and z=0 planes, respectively, with the reference frame origin set approximately at the car centroid) and mount them together in a "two-and-a-half-dimensional" (2.5D) or "pseudo-3D" model.
 
+![img src=2.5Dimage.png alt=foobar](http://www.dia.uniroma3.it/~paoluzzi/web/pao/fig/2.5Dimage.png)
+
 ## Exercise 3
 
 Generate a model of a racing car wheels (see, e.g. [here](https://www.google.it/search?hl=en&site=imghp&tbm=isch&source=hp&biw=968&bih=606&q=racing+car+wheels&oq=racing+car+wheels)),
