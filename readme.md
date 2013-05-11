@@ -34,6 +34,9 @@ Generate the 2D profile curves of the car envelope in the three coordinate direc
 
 ![img src=2.5Dimage.png alt=foobar](http://www.dia.uniroma3.it/~paoluzzi/web/pao/fig/2.5Dimage.png)
 
+Just make a 3D structure including 2D models embedded in 3D planes.
+Use at least 3 planes (usually x=0,y=0,z=0), but adding more planes may be visually useful.
+
 ## Exercise 3
 
 Generate a 3D model of a racing car wheel (see, e.g. [here](https://www.google.it/search?hl=en&site=imghp&tbm=isch&source=hp&biw=968&bih=606&q=racing+car+wheels&oq=racing+car+wheels)),
