@@ -76,10 +76,10 @@
 
 #### Legend
 
-`1` - exercise 1
-`2` - exercise 2
-`3` - exercise 3
-`4` - exercise 4
-`5` - exercise 5
-`D` - delivery
+`1` - exercise 1   
+`2` - exercise 2   
+`3` - exercise 3   
+`4` - exercise 4   
+`5` - exercise 5   
+`D` - delivery   
 `*` - need to talk
