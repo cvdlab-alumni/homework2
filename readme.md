@@ -1,3 +1,6 @@
+# [Homework assignment n.2 results](./results.md)
+
+- - -
 
 # TIME'S UP :)
 
