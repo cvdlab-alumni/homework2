@@ -1,7 +1,7 @@
- # Homework assignment n.2 results
+# Homework assignment n.2 results
 
- **For any questions about homework**
- **Thursday June 6th, 14:00 - 17:00 CVD Lab**
+**For any questions about homework**  
+**Thursday June 6th, 14:00 - 17:00 CVD Lab**
 
 ```
            1     2     3     4     5     D
@@ -76,10 +76,10 @@
 
 #### Legend
 
-`1` - exercise 1   
-`2` - exercise 2   
-`3` - exercise 3   
-`4` - exercise 4   
-`5` - exercise 5   
-`D` - delivery   
+`1` - exercise 1  
+`2` - exercise 2  
+`3` - exercise 3  
+`4` - exercise 4  
+`5` - exercise 5  
+`D` - delivery  
 `*` - need to talk
