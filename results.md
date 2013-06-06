@@ -34,7 +34,7 @@
 413937     A     A     A+    A     A+    A         10.39
 415358     A     A     B     B/C   B     B          8.4
 415870     A     A     A     A     A     A         10.0
-415873     A     A     B     B     D     B          7.83
+415873     A     A     B     B     B     B          8.5
 416886     A     A+    A     A     A     B          9.87
 417137     A     A     A     A     A/B   A          9.83
 417229     A     A     B     A     A     A          9.57
