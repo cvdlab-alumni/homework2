@@ -12,7 +12,7 @@
 266392     A     A     A     A     C     A          9.3
 266886     A     A/B   A     A/B   B     A          9.26
 267065     A     A     A/B   A/B   A     A          9.61
-274013     A     X     X     A/B   C     A          4.78
+274013     A     X     C     A/B   C     A          6.1
 281308     A     A     A     A/B   A     D          8.78
 281556     A     A/B   B     D     C     B          7.26
 281744     A     A     A     A     A/B   A          9.83
