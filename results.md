@@ -27,7 +27,7 @@
 404693     A     A     A     A/B   A     A          9.83
 405150     A     A     A/B   A     A     C          9.09
 405509     A     A     A+    A     A/B   A         10.04
-405510     A     A     X     X     X     A          4.35
+405510     A     A     A     B/C   A     A          9.5
 405512     A     A     A     C     X     A          7.57
 405769     A     A     A     A     A     A         10.0
 407842     A     A+    A     A     A     A         10.22
