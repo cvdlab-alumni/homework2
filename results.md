@@ -69,7 +69,7 @@
 455501     X     X     X     X     X     X          0.0
 465288     A     A     A     A     B     A          9.65
 465341     A     B     A     A     A     A          9.57
-465479     A     A     A     B     A     B          9.3
+465479     A     A     A     A/B     A     B        9.5
 465553     A     A     B     A     A     A          9.57
 ```
 
