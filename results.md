@@ -53,7 +53,7 @@
 426816     A     A     A     A/B   A     A          9.83
 427098     A     A     A     A     A     A         10.0
 427216     A     A/B   A     B     A     A          9.43
-427501     *     *     *     *     *     B          *
+427501     A     A     A/B   B     A     B          9.1
 427610     A     A/B   B     C     B     A          8.3
 427966     A     A     A     A     B     B          9.3
 428286     A     A+    A     B     A     A          9.87
