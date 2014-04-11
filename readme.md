@@ -1,98 +1,92 @@
-# [Homework assignment n.2 results](./results.md)
-
-- - -
-
-# TIME'S UP :)
-
-### YOUR LAST PUSH WILL BE CONSIDERED
-
-- - -
-
 # Homework assignment n.2
-**Computational Visual Design Lab ([CVDLab](https://github.com/cvdlab))**   
-**"Roma Tre" University, Rome, Italy**   
-**Computational Graphics 2013**   
+**Computational Visual Design Lab ([CVDLab](https://github.com/cvdlab))**  
+**"Roma Tre" University, Rome, Italy**  
+**Computational Graphics 2014**
 
-# Introduction
+## Introduction 
 
-The requirement is to produce a very simplified digital mock-up of a racing car.
+Take the building mock-up already developed for your first homework, and create ex-novo a more detailed  solid model, enriched on the outside by some neighbour roads and urban fittings ("arredo urbano").  The insertion of some (simplified) interior furniture would be also appreciated.
 
-(From [Wikipedia, the free encyclopedia: Automotive design](http://en.wikipedia.org/wiki/Automotive_design))
-The functional design and development of a modern motor vehicle is typically done by a large team from many different disciplines included in automotive engineering. Automotive design in this context is primarily concerned with developing the visual appearance or aesthetics of the vehicle, though it is also involved in the creation of the product concept.
-The stylist responsible for the design of the exterior of the vehicle develops the proportions, shape, and surfaces of the vehicle. Exterior design is first done by a series of digital or manual drawings. Progressively more detailed drawings are executed and approved.
+The goal of this homework is to assess the student ability to develop the model of a significant 3D construction, by (a) detailing a previously developed mock-up, (b) building an adeguate visual description of the exterior, and (c) choosing a suitable part decomposition and assembly.
 
 
-# Notes
+## Notes
 
-Useful links are [here](https://www.google.it/search?q=draw+ferrari+cars&source=lnms&tbm=isch&sa=X&ei=u_mMUdWWC8nBswbQuYHYBg&ved=0CAoQ_AUoAQ), [here](http://store.ferrari.com/it/collezionismo/modelli-da-collezione/) and [here](https://www.facebook.com/media/set/?set=a.10150411004934780.375266.239718954779&type=3).
-First spend time to look carefully to how a complex shape is built by a sequence of shape refinements, using sketches and paper drawings. Only later start the modeling work, **item by item** (exercise by exercise).
-The programming assignment must be produced in *Python*, using the the [`Pyplasm`](https://github.com/plasm-language/pyplasm) module for Python.
+You may use either pyplasm operators or LAR objects, mixing-up both, or developing your own primitives.
 
-## Remark
+The programming assignment must be produced in Python language,using the [`Pyplasm`](https://github.com/plasm-language/pyplasm) module for Python and/or the [`LAR`](https://github.com/cvdlab/lar-cc) prototype.
 
-The solutions to the homework assignment are strictly personal. Group work is not allowed.
+
+## Caveat
+
+The continuation of the work carried on for the previous assignment is **strictly required**. To start working on a new building is not allowed.   
+
+The homework is **strictly personal**, and must be worked out by a single student. Violations will be persecuted :o) 
+
 
 # Exercises
 
-## Exercise 1
+## Exercise 0  (4/30 points)
 
-Choose, searching on the web, a set of reference sketches and drawings for the car model you want to produce, and store their images in a directory (do not forget to add the images that drive your development of the exercises below).
+Produce a HTML page with 
 
-## Exercise 2
+1.  Name of the building;
 
-Generate the 2D profile curves of the car envelope in three orthogonal planes, embed them in 3D (in the x=0, y=0 and z=0 planes, respectively, with the reference frame origin set approximately at the car centroid) and mount them together in a "two-and-a-half-dimensional" (2.5D) or "pseudo-3D" model.
+2.  Your name and surname;
 
-![img src=2.5Dimage.png alt=foobar](http://www.dia.uniroma3.it/~paoluzzi/web/pao/fig/2.5Dimage.png)
+3.  University ID (matricola);
 
-Just make a 3D structure including 2D models embedded in 3D planes.
-Use at least 3 planes (usually x=0,y=0,z=0), but adding more planes may be visually useful.
+and with:
 
-## Exercise 3
+* all the links to the web documentation used for your work;
 
-Generate a 3D model of a racing car wheel (see, e.g. [here](https://www.google.it/search?hl=en&site=imghp&tbm=isch&source=hp&biw=968&bih=606&q=racing+car+wheels&oq=racing+car+wheels)),
-and mount four wheel instances in the 2.5D car mock-up.
+* (b) a short description of the work done; 
 
-## Exercise 4
+* (c) some interesting images of the work;
 
-Generate the 3D model of a steering wheel (volante :o) specifically designed for Formula and Sport cars (look on the web for common shapes). Mount it the the 2.5D mock-up.
+* (d) links to `exercise1.py`, `exercise2.py`, etc. 
 
-## Exercise 5
+## Exercise 1   (10/30 points)
 
-Create **at least** two *interesting* car surfaces and add them to the mock-up.
+Generate a 3D model of the building floors, assemble the *horizontal partitions* ("di base, intermedie e di copertura") into a single 3D assembly, together with the building columns or the main walls;
+
+## Exercise 2   (8/30 points)
+
+Define, the 3D models of the *vertical enclosures* (the building envelope) ("le facciate esterne"), including the openings and the windows/doors, and producing a single model.
+
+## Exercise 3   (6/30 points)
+
+Insert your model of the building in a 3D "small-area plan", introducing (very simplified) models (parallelopipeds) of few *neighbouring buildings*.
+
+## Exercise 4 (optional)   (8/30 points)
+
+Insert several instances of elements of *urban fittings* ("arredo urbano") of your choice, including street lamps, bus shelters, benches, large flower containers, and/or simplified model of trees (made by cylinders, spheres and cones). 
+
 
 # Assignment delivery
 
-For each exercise you must produce a corresponding file `exercise1.py`, etc.   
-All the .py file must be enclosed within a directory `python`.   
-Such directories must be contained in a directory entitled `2013-05-10`,   
-pushed into the personal GitHub repository of the student: [https://github.com/cvdlab-cg/xxxxxx](https://github.com/cvdlab-cg/)   
-where `xxxxxx` is the student ID  (matricola).
+For each exercise you must produce a corresponding file `exercise1.py`, `exercise2.py`, etc.  
+All the .py file must be enclosed within a directory `python`. The images within a directory `images`.    
+
+Such directories must be contained in a directory entitled `2014-03-21`, pushed into the personal GitHub repository of the student: [https://github.com/cvdlab-cg/xxxxxx](https://github.com/cvdlab-cg/) where `xxxxxx` is the student ID  (matricola). 
 
 ```
-+- xxxxxx
-|
-+- 2013-05-10
-  |
-  +- images
-  | |
-  | +- image1.jpeg
-  | +- image2.png
-  | +- etc.
-  | +- ....
-  |
-  +- python
-    |
-    +- exercise1.py
-    +- exercise2.py
-    +- exercise3.py
-    +- exercise4.py
-    +- exercise5.py
+─── xxxxxx
+    └── 2014-04-11
+        ├── images
+        │   ├── fig01.png
+        │   ├── fig02.png
+        │   └── etc.
+        ├── index.html
+        └── python
+            ├── exercise1.py
+            ├── exercise2.py
+            ├── exercise3.py
+            └── exercise4.py
 ```
 
-The delivery is strictly required within 24 hours from the publication of the homework (by 7:00 PM of Saturday May 11th 2013).
+The delivery is strictly required within 24 hours from the publication of the homework.
 
 # Tips
 
 #### Commit and push as frequently as you can
-
-
